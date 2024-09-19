@@ -1,0 +1,21 @@
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .video-responsive {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+  }
+
+  .video-caption {
+      font-size: 1.5rem;
+      font-family: 'Noto Serif', serif;
+      color: $tertiary-color;
+      margin-top: 10px;
+  }
+}
+
+  
